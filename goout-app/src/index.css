@@ -1,0 +1,244 @@
+:root {
+  --brown-color: #9c9c9c;
+  --blue-color: #466bf3;
+  --black-color: #232631;
+  --blue-background: #3258e8;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald:wght@200;400&family=Poppins&family=Roboto&display=swap");
+body {
+  font-family: "poppins", sans-serif !important;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.nav-item a {
+  color: var(--brown-color);
+  /* margin: 0 15px; */
+  font-size: 16px;
+  font-weight: 400;
+}
+.nav-item:nth-child(1) a {
+  color: var(--blue-color);
+  font-weight: bold;
+}
+.jumbotron {
+}
+.jumbotron-content {
+  height: 436px;
+  margin: 104px auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content {
+  background: #000;
+}
+.content2 .search {
+  height: 107px;
+  background-color: white;
+  box-shadow: 0px 25px 54px #efefef;
+  border-radius: 20px;
+}
+.jumbotron-image {
+  z-index: -1;
+}
+.imageJumbotron {
+  border-radius: 24px;
+}
+.search {
+  width: 1160px;
+}
+.search div {
+}
+.jumbotron h1 {
+  color: var(--black-color);
+  font-size: 52px;
+  font-weight: bold;
+  margin-left: 30px;
+  height: 156px;
+  width: 550px;
+  line-height: 70px;
+}
+.content1 .text {
+  margin-left: 30px;
+  color: var(--brown-color);
+}
+.icon {
+}
+.halo {
+}
+.detail {
+  height: 55px;
+}
+.detail h2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--black-color);
+}
+.detail p {
+  color: var(--brown-color);
+}
+.searchButton {
+  width: 205px;
+  height: 55px;
+  background-color: var(--blue-background);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 42px;
+}
+.searchButton h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  padding-top: 5px;
+}
+
+/* service */
+#service {
+  margin: 120px auto;
+  height: 328px;
+}
+.service-wrapper {
+  margin: 101px 140px 101px 60px;
+}
+.service-wrapper p {
+  margin: 0;
+  color: var(--blue-background);
+  font-weight: bold;
+}
+.service-wrapper h2 {
+  width: 250px;
+  color: var(--black-color);
+  font-size: 36px;
+  font-weight: bolder;
+}
+.service-desc .row {
+  width: 339px;
+  height: 94px;
+  flex-wrap: wrap;
+}
+.service-desc .row h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.service-desc .row p {
+  color: var(--brown-color);
+}
+/* package */
+.package-container {
+  margin-top: 120px;
+  height: 404px;
+  align-items: center;
+}
+.image-wrapper {
+  width: 304px;
+  height: 404px;
+  border: 4px solid var(--blue-color);
+  border-radius: 24px;
+}
+.active-package {
+}
+.package h2 {
+  font-size: 36px;
+  color: var(--black-color);
+  font-weight: bold;
+}
+.package .package-desc {
+  color: var(--brown-color);
+}
+.package div h3 {
+  color: var(--black-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+.package div p {
+  color: var(--brown-color);
+}
+.choose-package {
+  width: 202px;
+  height: 55px;
+  border-radius: 12px;
+  background-color: var(--blue-background);
+}
+.view-more {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.view-more a {
+  text-decoration: none;
+  color: var(--brown-color);
+}
+/* Destination */
+.destination-wrapper {
+  margin-top: 120px;
+}
+.destination-wrapper h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--black-color);
+}
+.destination-wrapper p {
+  color: var(--brown-color);
+}
+.destination-picture {
+  margin-top: 60px;
+}
+.destination-item {
+  box-shadow: 0px 14px 25px #f2f2f2;
+  border-radius: 24px;
+  margin-top: 30px;
+}
+.destination-desc h4 {
+  margin-top: 16px;
+  font-size: 18px;
+  color: var(--black-color);
+}
+.destination-desc p {
+  color: var(--brown-color);
+}
+
+.destination-price div p {
+  color: var(--black-color);
+  font-size: 18px;
+  font-weight: bold;
+}
+.destination-price div p span {
+  font-size: 16px;
+  color: var(--brown-color);
+}
+.place {
+  height: 20px;
+}
+.book-button {
+  background-color: var(--blue-background);
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.img-item-wrapper {
+  position: relative;
+}
+.rating {
+  width: 78px;
+  position: absolute;
+  top: 16px;
+  right: 35px;
+}
+.more-btn {
+  margin: 60px auto;
+  background-color: white;
+  width: 142px;
+  height: 55px;
+  color: var(--brown-color);
+  border: 1.5px solid #7b7b7b;
+  border-radius: 100px;
+  font-size: 18px;
+}
